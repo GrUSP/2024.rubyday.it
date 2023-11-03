@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2024.rubyday.it/workshop/workshop_2.html</loc>
-    
-    <lastmod>2023-11-03</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2024.rubyday.it/welcome/about.html</loc>
     
     <lastmod>2023-11-03</lastmod>
@@ -16,7 +9,14 @@
   </url>
   
   <url>
-    <loc>https://2024.rubyday.it/schedule/index.html</loc>
+    <loc>https://2024.rubyday.it/welcome/scholarships.html</loc>
+    
+    <lastmod>2023-11-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.rubyday.it/workshop/workshop_2.html</loc>
     
     <lastmod>2023-11-03</lastmod>
     
@@ -51,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://2024.rubyday.it/workshop/workshop_1.html</loc>
+    <loc>https://2024.rubyday.it/welcome/where.html</loc>
     
     <lastmod>2023-11-03</lastmod>
     
@@ -72,14 +72,14 @@
   </url>
   
   <url>
-    <loc>https://2024.rubyday.it/welcome/scholarships.html</loc>
+    <loc>https://2024.rubyday.it/workshop/workshop_1.html</loc>
     
     <lastmod>2023-11-03</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.rubyday.it/welcome/where.html</loc>
+    <loc>https://2024.rubyday.it/schedule/index.html</loc>
     
     <lastmod>2023-11-03</lastmod>
     

@@ -13,7 +13,7 @@ conference:
 
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
-  buy_tickets_url: "https://ti.to/grusp/rubyday-2023"
+  buy_tickets_url: "https://ti.to/grusp/rubyday-2024"
   # additional info for microdata / schema.org
   #md_city: "Verona"
   #md_province: "VR"
@@ -23,10 +23,10 @@ conference:
   # contact email
   contact_email: "rubyday@grusp.org"
   # these are for the hero section
-  title_pre: "Welcome to"
-  title: "rubyday 2023"
+  title_pre: "rubyday 2024"
+  title: ""
   city: "Verona"
-  date: 2023-06-16T09:00+02:00
+  date: 2024-05-31T09:00+02:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -47,17 +47,17 @@ conference:
   update_link_url: "https://google.com/"
   update_link_label: "link to google, just for the demo"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
-  cfp_deadline: 2023-04-10T23:59+02:00
+  cfp_deadline: 2024-01-31T23:59+01:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "RubyDay 2023 is the 10th edition of the Italian Ruby conference, organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a> and <a href='https://www.jsday.it/'>jsday</a>.
+  geninfo_description: "RubyDay 2024 is the 11th edition of the Italian Ruby conference, organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a> and <a href='https://www.jsday.it/'>jsday</a>.
   <br> <br /> The event is international and all sessions will be in English.
   <br> The event’s goal is to allow all Rubyists to meet and share experience while having fun and networking in an enjoyable context.
   <br />"
@@ -114,13 +114,13 @@ conference:
   workshops_readmore_label: "Read more"
   workshops_register_label: "Register"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  media_visible: true
+  media_visible: false
   media_pic_1: ""
   media_pic_2: ""
   media_pic_3: ""
   media_pic_4: ""
   #   playlist: if true, the iframe will be created. if false, it will not
-  media_video_playlist: true
+  media_video_playlist: false
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
   media_video_is_youtube: false
   youtube_base_url: "https://www.youtube.com/embed/videoseries?list="
@@ -140,7 +140,7 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: true
+  sponsors_visible: false
   sponsor_title_home: "Sponsors"
   # this is for the Community partners section in home page
   community_partners: true
@@ -171,12 +171,14 @@ conference:
     2019: "2019"
     2020: "2020"
     2021: "2021"
+    2022: "2022"
+    2023: "2023"  
   past_editions_videos_pre: "Videos from the past editions are available on "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " and "
   past_editions_videos_youtube_label: "YouTube"
   past_editions_videos_post: "."
-  footer_copy_text: "is &copy; by Grusp and its awesome staff"
+  footer_copy_text: "rubyday is &copy; by Grusp and its awesome staff"
   footer_contact_text: "Contact us at "
   footer_links_pre: "You can read our "
   footer_links_privacy_link_label: "privacy policy"

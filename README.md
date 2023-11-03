@@ -131,8 +131,8 @@ Tra i dati "interessanti" ci sono `title`, `description`, etc.; vengono usati pe
 ```
 # Site / OG
 type: website
-title: "ruby day 2020"
-description: "Ruby Day 2020, Verona, Italy"
+title: "rubyday 2024"
+description: "rubyday 2024, Verona, Italy"
 # separate keywords by comma, no spaces
 keywords: conference,software conference,ruby,ruby on rails
 author: GrUSP

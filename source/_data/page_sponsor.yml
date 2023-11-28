@@ -24,7 +24,7 @@ block_2:
 levels:
   level_1:
     name: Main
-    amount: 10000
+    amount: 5000
     vat_label: "(+ VAT 22%)"
     available_slots: 1
     description_1:
@@ -51,7 +51,7 @@ levels:
 #      - "<strong>5</strong> tickets with <strong>50%</strong> discount"
   level_2:
     name: Diamond
-    amount: 5000
+    amount: 3000
     vat_label: "(+ VAT 22%)"
     available_slots: 2
     description_1:
@@ -76,7 +76,7 @@ levels:
 
   level_3:
     name: Platinum
-    amount: 3000
+    amount: 1500
     vat_label: "(+ VAT 22%)"
     available_slots: 4
     description_2:
@@ -98,7 +98,7 @@ levels:
       - "<strong>3</strong> free tickets for the in-person event"
   level_4:
     name: Gold
-    amount: 1500
+    amount: 750
     vat_label: "(+ VAT 22%)"
     available_slots: 8
     description_3:
@@ -117,7 +117,7 @@ levels:
       - "<strong>2</strong> free tickets for the in-person event"
   level_5:
     name: Silver
-    amount: 750
+    amount: 500
     vat_label: "(+ VAT 22%)"
     available_slots: 16
     description_3:
@@ -135,7 +135,7 @@ levels:
       - "<strong>1</strong> free tickets for the in-person event"
   level_6:
     name: Bronze
-    amount: 500
+    amount: 250
     vat_label: "(+ VAT 22%)"
     available_slots: 32
     description_5:

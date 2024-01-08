@@ -196,3 +196,6 @@ conference:
   # Google Tag Manager
   google:
     tag_manager_id: "GTM-WXLML2N"
+  # Tito tickets
+  tito:
+    event: grusp/rubyday-2024

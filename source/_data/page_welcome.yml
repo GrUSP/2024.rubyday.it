@@ -11,6 +11,9 @@ info_about:
 info_coc:
   title: "COC"
   content: "Be nice to everyone"
+info_safety:
+  title: "Health & Safety"
+  content: "Health and safety are our priority"
 info_scholarships:
   title: "Scholarships"
   content: "How to apply"
@@ -22,6 +25,6 @@ info_venue:
   content: "Practical info"
 info_ticket:
   title: "Tickets"
-  content: "The tickets are available on ti.to"
+  content: "The tickets are available on Tito"
   # the tickets link is the only one that does not use the "global" label
   readmore_label: "GET YOURS"

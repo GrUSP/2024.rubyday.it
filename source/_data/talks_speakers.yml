@@ -7,7 +7,7 @@ schedule_under_construction_description: "We are still defining the schedule. Pl
 speaker_1: &bozhidarbatsov
   speaker_in_speaker_lists: true
   speaker_name: Bozhidar Batsov
-  speaker_pic_filename: bozhidar-batsov.png
+  speaker_pic_filename: bozhidar-batsov.jpg
   speaker_role: "Senior Director of Engineering @ Toptal"
   speaker_bio: "I’m Bozhidar and I love computers in general and programming in particular.  
   My fanatic devotion to Emacs is known world-wide. I spend a lot of my (free) time on GitHub, contributing to various open-source Ruby, Clojure and Emacs Lisp projects.  
@@ -22,7 +22,7 @@ speaker_1: &bozhidarbatsov
 speaker_2: &lucianghinda
   speaker_in_speaker_lists: true
   speaker_name: Lucian Ghinda
-  speaker_pic_filename: lucian-ghinda.png
+  speaker_pic_filename: lucian-ghinda.jpg
   speaker_role: "Senior Ruby Developer by day, Curator of Short Ruby Newsletter during weekends"
   speaker_bio: "I am a Senior Ruby Developer, but I like to describe myself as a 'polymorphic' Ruby developer, as in the past 15 years working with Ruby, I have worn many different hats.
   I worked as a Senior Ruby Developer, Senior Product Engineer, Product Owner and Engineering Manager, but my not-so-secret passion is the mix of programming, teaching and mentoring.
@@ -37,7 +37,7 @@ speaker_2: &lucianghinda
 speaker_3: &joelhawksley
   speaker_in_speaker_lists: true
   speaker_name: Joel Hawksley
-  speaker_pic_filename: joel-hawksley.png
+  speaker_pic_filename: joel-hawksley.jpg
   speaker_role: "Staff Engineer at GitHub"
   speaker_bio: "Joel is a staff software engineer at GitHub, working on user interface architecture and strategy."
   speaker_github_url: ""
@@ -50,7 +50,7 @@ speaker_3: &joelhawksley
 speaker_4: &rashminagpal
   speaker_in_speaker_lists: true
   speaker_name: Rashmi Nagpal
-  speaker_pic_filename: rashmi-nagpal.png
+  speaker_pic_filename: rashmi-nagpal.jpg
   speaker_role: "Machine Learning Engineer at Patchstack"
   speaker_bio: "Rashmi, a Machine Learning Engineer by profession and a passionate researcher is dedicated to crafting beautiful AI/ML products. With nearly 5 years of industrial experience, she has brought ideas to life at pre-seed startups and contributed to impactful redesigns and features at established industry giants. Beyond coding, Rashmi finds inspiration in capturing the wonders of the cosmos through her telescope and engaging in board games with friends. 
   Additionally, as a Research Affiliate at MIT, Rashmi continues to push the boundaries of technology, leveraging her expertise to bridge the gap between academia and industry in AI."
@@ -64,7 +64,7 @@ speaker_4: &rashminagpal
 speaker_5: &cristianplanas
   speaker_in_speaker_lists: true
   speaker_name: Cristian Planas
-  speaker_pic_filename: cristian-planas.png
+  speaker_pic_filename: cristian-planas.jpg
   speaker_role: "Group Tech Lead & Senior Staff Engineer at Zendesk"
   speaker_bio: "I am a software engineer currently based in New York City. I have been working primarily with Rails since the release of Rails 3, more than 10 years ago. Performance optimization has been an obsession for me since I founded my first start-up as a solo engineer in 2012. Currently, I am a group tech lead and senior staff engineer at Zendesk, where I focus on performance optimization."
   speaker_github_url: "https://github.com/Gawyn"
@@ -77,7 +77,7 @@ speaker_5: &cristianplanas
 speaker_6: &piotrszotkowski
   speaker_in_speaker_lists: true
   speaker_name: Piotr Szotkowski
-  speaker_pic_filename: piotr-szotkowski.png
+  speaker_pic_filename: piotr-szotkowski.jpg
   speaker_role: "Senior staff developer @ Shopify"
   speaker_bio: "Piotr started dabbling in Ruby 18 years ago, initially for his PhD thesis and later in his work as an assistant professor at Warsaw University of Technology. Currently Piotr works as a senior staff developer at Shopify, speaks at various Ruby conferences and co-maintains Bogus and Reek gems."
   speaker_github_url: "https://github.com/chastell"

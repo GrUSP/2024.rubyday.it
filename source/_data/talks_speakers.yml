@@ -201,7 +201,7 @@ days:
         end_datetime:
         talk_title: "2000 engineers, 2 millions lines of code: the history of a Rails monolith"
         talk_description: "Rails is the best framework for building your startup. But what happens when the startup becomes a leading business? How do companies that have Rails at the heart of its stack manage growth? How do you maintain a growing application for 15 years in a constantly changing environment?
-        In this presentation, Anatoly Mikhaylov and Cristian Planas, Senior Staff Engineers at Zendesk, will share with you their 10 years of experience in a company that has succeeded by keeping Rails in its core. They will guide you through the life of a Rails-centered organization, that scaled from zero to hundreds of millions of users."
+        In this Cristian Planas, Senior Staff Engineer at Zendesk, will share with you his 10 years of experience in a company that has succeeded by keeping Rails in its core. He will guide you through the life of a Rails-centered organization, that scaled from zero to hundreds of millions of users."
         talk_video_url:
         speakers:
           speaker_5: *cristianplanas

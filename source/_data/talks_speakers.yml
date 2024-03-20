@@ -1,15 +1,45 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
+speaker_1: &bozhidarbatsov
+  speaker_in_speaker_lists: true
+  speaker_name: Bozhidar Batsov
+  speaker_pic_filename: bozhidar-batsov.png
+  speaker_role: "Senior Director of Engineering @ Toptal"
+  speaker_bio: "I’m Bozhidar and I love computers in general and programming in particular.  
+  My fanatic devotion to Emacs is known world-wide. I spend a lot of my (free) time on GitHub, contributing to various open-source Ruby, Clojure and Emacs Lisp projects.  
+  My most notable open-source projects are RuboCop (a linter/formatter for Ruby) and CIDER (a Clojure interactive development environment for Emacs)."
+  speaker_github_url: "https://github.com/bbatsov"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: ""
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_2: &lucianghinda
+  speaker_in_speaker_lists: true
+  speaker_name: Lucian Ghinda
+  speaker_pic_filename: lucian-ghinda.png
+  speaker_role: "Senior Ruby Developer by day, Curator of Short Ruby Newsletter during weekends"
+  speaker_bio: "I am a Senior Ruby Developer, but I like to describe myself as a 'polymorphic' Ruby developer, as in the past 15 years working with Ruby, I have worn many different hats.
+  I worked as a Senior Ruby Developer, Senior Product Engineer, Product Owner and Engineering Manager, but my not-so-secret passion is the mix of programming, teaching and mentoring.
+  Out of this passion, I ran meetups and bootcamps, co-founded a learning academy, and mentored developers."
+  speaker_github_url: "https://github.com/lucianghinda"
+  speaker_twitter_url: "https://twitter.com/lucianghinda"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://linkedin.com/in/lucianghinda"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_3: &joelhawksley
+  speaker_in_speaker_lists: true
+  speaker_name: Joel Hawksley
+  speaker_pic_filename: joel-hawksley.png
+  speaker_role: "Staff Engineer at GitHub"
+  speaker_bio: "Joel is a staff software engineer at GitHub, working on user interface architecture and strategy."
   speaker_github_url: ""
   speaker_twitter_url: ""
   speaker_instagram_url: ""
@@ -17,19 +47,66 @@ speaker_1: &speaker
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_4: &rashminagpal
+  speaker_in_speaker_lists: true
+  speaker_name: Rashmi Nagpal
+  speaker_pic_filename: rashmi-nagpal.png
+  speaker_role: "Machine Learning Engineer at Patchstack"
+  speaker_bio: "Rashmi, a Machine Learning Engineer by profession and a passionate researcher is dedicated to crafting beautiful AI/ML products. With nearly 5 years of industrial experience, she has brought ideas to life at pre-seed startups and contributed to impactful redesigns and features at established industry giants. Beyond coding, Rashmi finds inspiration in capturing the wonders of the cosmos through her telescope and engaging in board games with friends. 
+  Additionally, as a Research Affiliate at MIT, Rashmi continues to push the boundaries of technology, leveraging her expertise to bridge the gap between academia and industry in AI."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/iamrashminagpal"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/rashminagpal0311/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_5: &cristianplanas
+  speaker_in_speaker_lists: true
+  speaker_name: Cristian Planas
+  speaker_pic_filename: cristian-planas.png
+  speaker_role: "Group Tech Lead & Senior Staff Engineer at Zendesk"
+  speaker_bio: "I am a software engineer currently based in New York City. I have been working primarily with Rails since the release of Rails 3, more than 10 years ago. Performance optimization has been an obsession for me since I founded my first start-up as a solo engineer in 2012. Currently, I am a group tech lead and senior staff engineer at Zendesk, where I focus on performance optimization."
+  speaker_github_url: "https://github.com/Gawyn"
+  speaker_twitter_url: "https://twitter.com/crplanas"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/cristianplanas/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_6: &piotrszotkowski
+  speaker_in_speaker_lists: true
+  speaker_name: Piotr Szotkowski
+  speaker_pic_filename: piotr-szotkowski.png
+  speaker_role: "Senior staff developer @ Shopify"
+  speaker_bio: "Piotr started dabbling in Ruby 18 years ago, initially for his PhD thesis and later in his work as an assistant professor at Warsaw University of Technology. Currently Piotr works as a senior staff developer at Shopify, speaks at various Ruby conferences and co-maintains Bogus and Reek gems."
+  speaker_github_url: "https://github.com/chastell"
+  speaker_twitter_url: "https://twitter.com/chastell"
+  speaker_instagram_url: "https://www.instagram.com/chastell_net"
+  speaker_linkedin_url: "https://www.linkedin.com/in/chastell/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
-  speaker_1: *speaker
+  speaker_1: *bozhidarbatsov
+  speaker_2: *lucianghinda
+  speaker_3: *joelhawksley
+  speaker_4: *rashminagpal
+  speaker_5: *cristianplanas
+  speaker_6: *piotrszotkowski
+
+
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
+#  track_2: &track_2
+#    id: 2
+#    title: "Track 2"
+#  track_3: &track_3
+#    id: 3
+#    title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -63,23 +140,80 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
+      # keynote:
+      #  item_type: "keynote"
+      #  track: *track_1
+      #  start_datetime: 2022-05-19T09:30+02:00
+      #  end_datetime: 2022-05-19T10:25+02:00
+      #  talk_title: "test"
+      #  talk_description: "test"
+      #  talk_video_url:
+      #  speakers:
+      #    speaker_1: *bozhidarbatsov
       titolotalk1:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        start_datetime:
+        end_datetime:
+        talk_title: "Weird Ruby"
+        talk_description: "Over its long history (31 years and counting) Ruby has accumulated dozens of little known, obscure and somewhat weird features. Some of them are annoying, some of them are fun and a few are actually quite useful. In this session we'll go over some of my favorite weird Ruby features and we'll discuss how to make the best use of them (provided they are any useful, that is). It will be weird and fun, I promise!"
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *bozhidarbatsov
+
+      titolotalk2:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Discover Modern Ruby features"
+        talk_description: "Exploring Ruby's evolution as a language: Dive into new features like pattern matching, hash literal value omission, object shapes, and a wide range of new abilities. Learn their real-world applications & impact on code readability in my talk. Let's unlock Ruby's full potential!"
+        talk_video_url:
+        speakers:
+          speaker_2: *lucianghinda
+
+      titolotalk3:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "How to make your application accessible (and keep it that way!)"
+        talk_description: "Our industry is shockingly bad at accessibility: by some estimates, over 70% of websites are effectively unavailable to blind users! Making your app accessible isn’t just the right thing to do, it’s the law. In this talk, we’ll share what it’s taken to scale GitHub’s accessibility program and equip you to do the same at your company."
+        talk_video_url:
+        speakers:
+          speaker_3: *joelhawksley
+
+      titolotalk4:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "From Data to Recommendations: Building an Intelligent System with Ruby on Rails"
+        talk_description: "Did you know that 75% of users are more likely to engage with a platform offering personalized recommendations? Well, with 1.2 million websites worldwide built on Ruby on Rails, let’s harness the power of this popular framework to implement intelligent recommendations effortlessly! This talk will explore the exciting realm of recommendation systems and how to build an intelligent system using Ruby on Rails. We will start by unraveling the fundamentals of recommendation systems, including collaborative filtering. With this foundation, we will integrate machine learning techniques into the Ruby on Rails framework. Throughout the talk, we will discuss various strategies for capturing and utilizing user preferences, improving recommendation accuracy, and continuously refining the system based on user feedback. By the end of this talk, you will have gained valuable insights into building an intelligent system that can transform raw data into valuable recommendations within a Ruby on Rails application!"
+        talk_video_url:
+        speakers:
+          speaker_4: *rashminagpal
+
+      titolotalk5:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "2000 engineers, 2 millions lines of code: the history of a Rails monolith"
+        talk_description: "Rails is the best framework for building your startup. But what happens when the startup becomes a leading business? How do companies that have Rails at the heart of its stack manage growth? How do you maintain a growing application for 15 years in a constantly changing environment?
+        In this presentation, Anatoly Mikhaylov and Cristian Planas, Senior Staff Engineers at Zendesk, will share with you their 10 years of experience in a company that has succeeded by keeping Rails in its core. They will guide you through the life of a Rails-centered organization, that scaled from zero to hundreds of millions of users."
+        talk_video_url:
+        speakers:
+          speaker_5: *cristianplanas
+
+      titolotalk6:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Boring Stacks for Interesting Times"
+        talk_description: "With the ZIRP (zero-interest rates policy) period behind us, the IT at large - and web / SaaS slice of it in particular - is facing interesting times. Smaller teams (or even single devs) will need to deliver leaner solutions, and projects like LiteStack show us an enticingly minimalist environments.
+        Let’s take a look how simple modern stacks can be - from dynamic sites build with backend-generated HTML-over-websockets through database-backed job queues and production uses of SQLite."
+        talk_video_url:
+        speakers:
+          speaker_6: *piotrszotkowski            

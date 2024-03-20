@@ -38,7 +38,7 @@ speaker_3: &joelhawksley
   speaker_in_speaker_lists: true
   speaker_name: Joel Hawksley
   speaker_pic_filename: joel-hawksley.jpg
-  speaker_role: "Staff Engineer at GitHub"
+  speaker_role: "Staff Engineer @ GitHub"
   speaker_bio: "Joel is a staff software engineer at GitHub, working on user interface architecture and strategy."
   speaker_github_url: ""
   speaker_twitter_url: ""
@@ -51,7 +51,7 @@ speaker_4: &rashminagpal
   speaker_in_speaker_lists: true
   speaker_name: Rashmi Nagpal
   speaker_pic_filename: rashmi-nagpal.jpg
-  speaker_role: "Machine Learning Engineer at Patchstack"
+  speaker_role: "Machine Learning Engineer @ Patchstack"
   speaker_bio: "Rashmi, a Machine Learning Engineer by profession and a passionate researcher is dedicated to crafting beautiful AI/ML products. With nearly 5 years of industrial experience, she has brought ideas to life at pre-seed startups and contributed to impactful redesigns and features at established industry giants. Beyond coding, Rashmi finds inspiration in capturing the wonders of the cosmos through her telescope and engaging in board games with friends. 
   Additionally, as a Research Affiliate at MIT, Rashmi continues to push the boundaries of technology, leveraging her expertise to bridge the gap between academia and industry in AI."
   speaker_github_url: ""
@@ -65,7 +65,7 @@ speaker_5: &cristianplanas
   speaker_in_speaker_lists: true
   speaker_name: Cristian Planas
   speaker_pic_filename: cristian-planas.jpg
-  speaker_role: "Group Tech Lead & Senior Staff Engineer at Zendesk"
+  speaker_role: "Group Tech Lead & Senior Staff Engineer @ Zendesk"
   speaker_bio: "I am a software engineer currently based in New York City. I have been working primarily with Rails since the release of Rails 3, more than 10 years ago. Performance optimization has been an obsession for me since I founded my first start-up as a solo engineer in 2012. Currently, I am a group tech lead and senior staff engineer at Zendesk, where I focus on performance optimization."
   speaker_github_url: "https://github.com/Gawyn"
   speaker_twitter_url: "https://twitter.com/crplanas"

@@ -114,11 +114,11 @@ conference:
   workshops_readmore_label: "Read more"
   workshops_register_label: "Register"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  media_visible: false
-  media_pic_1: ""
-  media_pic_2: ""
-  media_pic_3: ""
-  media_pic_4: ""
+  media_visible: true
+  media_pic_1: "rubyday_1.jpg"
+  media_pic_2: "rubyday_3.jpg"
+  media_pic_3: "rubyday_2.jpg"
+  media_pic_4: "rubyday_4.jpg"
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: false
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"

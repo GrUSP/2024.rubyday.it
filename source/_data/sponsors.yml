@@ -16,6 +16,14 @@ sponsors_block_title: "Thanks to our sponsors and partners"
 #     site_url: ""
 gold:
   sponsor1:
+    name: "seesaw"
+    logo_filename: "seesaw.png"
+    site_url: "https://seesaw.it/"
+  sponsor2:
+    name: "WeLaika"
+    logo_filename: "welaika.svg"
+    site_url: "https://welaika.com/"
+  sponsor3:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
@@ -25,6 +33,10 @@ silver:
     logo_filename: "appsignal.svg"
     site_url: "https://www.appsignal.com/ruby"
   sponsor2:
+    name: "Archeido"
+    logo_filename: "archeido.svg"
+    site_url: "https://archeido.com/"
+  sponsor3:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"

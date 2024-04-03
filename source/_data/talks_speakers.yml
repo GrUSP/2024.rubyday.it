@@ -34,18 +34,18 @@ speaker_2: &lucianghinda
   speaker_mastodon_url: ""
   is_mc: false
 
-speaker_3: &joelhawksley
-  speaker_in_speaker_lists: true
-  speaker_name: Joel Hawksley
-  speaker_pic_filename: joel-hawksley.jpg
-  speaker_role: "Staff Engineer @ GitHub"
-  speaker_bio: "Joel is a staff software engineer at GitHub, working on user interface architecture and strategy."
-  speaker_github_url: ""
-  speaker_twitter_url: ""
-  speaker_instagram_url: ""
-  speaker_linkedin_url: ""
-  speaker_mastodon_url: ""
-  is_mc: false
+#speaker_3: &joelhawksley
+#  speaker_in_speaker_lists: true
+#  speaker_name: Joel Hawksley
+#  speaker_pic_filename: joel-hawksley.jpg
+#  speaker_role: "Staff Engineer @ GitHub"
+#  speaker_bio: "Joel is a staff software engineer at GitHub, working on user interface architecture and strategy."
+#  speaker_github_url: ""
+#  speaker_twitter_url: ""
+#  speaker_instagram_url: ""
+#  speaker_linkedin_url: ""
+#  speaker_mastodon_url: ""
+#  is_mc: false
 
 speaker_4: &rashminagpal
   speaker_in_speaker_lists: true
@@ -74,26 +74,26 @@ speaker_5: &cristianplanas
   speaker_mastodon_url: ""
   is_mc: false
 
-speaker_6: &piotrszotkowski
-  speaker_in_speaker_lists: true
-  speaker_name: Piotr Szotkowski
-  speaker_pic_filename: piotr-szotkowski.jpg
-  speaker_role: "Senior staff developer @ Shopify"
-  speaker_bio: "Piotr started dabbling in Ruby 18 years ago, initially for his PhD thesis and later in his work as an assistant professor at Warsaw University of Technology. Currently Piotr works as a senior staff developer at Shopify, speaks at various Ruby conferences and co-maintains Bogus and Reek gems."
-  speaker_github_url: "https://github.com/chastell"
-  speaker_twitter_url: "https://twitter.com/chastell"
-  speaker_instagram_url: "https://www.instagram.com/chastell_net"
-  speaker_linkedin_url: "https://www.linkedin.com/in/chastell/"
-  speaker_mastodon_url: ""
-  is_mc: false
+# speaker_6: &piotrszotkowski
+#  speaker_in_speaker_lists: true
+#  speaker_name: Piotr Szotkowski
+#  speaker_pic_filename: piotr-szotkowski.jpg
+#  speaker_role: "Senior staff developer @ Shopify"
+#  speaker_bio: "Piotr started dabbling in Ruby 18 years ago, initially for his PhD thesis and later in his work as an assistant professor at Warsaw University of Technology. Currently Piotr works as a senior staff developer at Shopify, speaks at various Ruby conferences and co-maintains Bogus and Reek gems."
+#  speaker_github_url: "https://github.com/chastell"
+#  speaker_twitter_url: "https://twitter.com/chastell"
+#  speaker_instagram_url: "https://www.instagram.com/chastell_net"
+#  speaker_linkedin_url: "https://www.linkedin.com/in/chastell/"
+#  speaker_mastodon_url: ""
+#  is_mc: false
 
 speakers:
   speaker_1: *bozhidarbatsov
   speaker_2: *lucianghinda
-  speaker_3: *joelhawksley
+#  speaker_3: *joelhawksley
   speaker_4: *rashminagpal
   speaker_5: *cristianplanas
-  speaker_6: *piotrszotkowski
+#  speaker_6: *piotrszotkowski
 
 
 
@@ -172,16 +172,16 @@ days:
         speakers:
           speaker_2: *lucianghinda
 
-      titolotalk3:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "How to make your application accessible (and keep it that way!)"
-        talk_description: "Our industry is shockingly bad at accessibility: by some estimates, over 70% of websites are effectively unavailable to blind users! Making your app accessible isn’t just the right thing to do, it’s the law. In this talk, we’ll share what it’s taken to scale GitHub’s accessibility program and equip you to do the same at your company."
-        talk_video_url:
-        speakers:
-          speaker_3: *joelhawksley
+#      titolotalk3:
+#        item_type: "talk"
+#        track: *track_1
+#        start_datetime:
+#        end_datetime:
+#        talk_title: "How to make your application accessible (and keep it that way!)"
+#        talk_description: "Our industry is shockingly bad at accessibility: by some estimates, over 70% of websites are effectively unavailable to blind users! Making your app accessible isn’t just the right thing to do, it’s the law. In this talk, we’ll share what it’s taken to scale GitHub’s accessibility program and equip you to do the same at your company."
+#        talk_video_url:
+#        speakers:
+#          speaker_3: *joelhawksley
 
       titolotalk4:
         item_type: "talk"
@@ -206,14 +206,14 @@ days:
         speakers:
           speaker_5: *cristianplanas
 
-      titolotalk6:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Boring Stacks for Interesting Times"
-        talk_description: "With the ZIRP (zero-interest rates policy) period behind us, the IT at large - and web / SaaS slice of it in particular - is facing interesting times. Smaller teams (or even single devs) will need to deliver leaner solutions, and projects like LiteStack show us an enticingly minimalist environments.
-        Let’s take a look how simple modern stacks can be - from dynamic sites build with backend-generated HTML-over-websockets through database-backed job queues and production uses of SQLite."
-        talk_video_url:
-        speakers:
-          speaker_6: *piotrszotkowski            
+#      titolotalk6:
+#        item_type: "talk"
+#        track: *track_1
+#        start_datetime:
+#        end_datetime:
+#        talk_title: "Boring Stacks for Interesting Times"
+#        talk_description: "With the ZIRP (zero-interest rates policy) period behind us, the IT at large - and web / SaaS slice of it in particular - is facing interesting times. Smaller teams (or even single devs) will need to deliver leaner solutions, and projects like LiteStack show us an enticingly minimalist environments.
+#        Let’s take a look how simple modern stacks can be - from dynamic sites build with backend-generated HTML-over-websockets through database-backed job queues and production uses of SQLite."
+#        talk_video_url:
+#        speakers:
+#          speaker_6: *piotrszotkowski            

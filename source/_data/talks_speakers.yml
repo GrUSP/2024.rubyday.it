@@ -9,8 +9,8 @@ speaker_1: &bozhidarbatsov
   speaker_name: Bozhidar Batsov
   speaker_pic_filename: bozhidar-batsov.jpg
   speaker_role: "Senior Director of Engineering @ Toptal"
-  speaker_bio: "I’m Bozhidar and I love computers in general and programming in particular.  
-  My fanatic devotion to Emacs is known world-wide. I spend a lot of my (free) time on GitHub, contributing to various open-source Ruby, Clojure and Emacs Lisp projects.  
+  speaker_bio: "I’m Bozhidar and I love computers in general and programming in particular.
+  My fanatic devotion to Emacs is known world-wide. I spend a lot of my (free) time on GitHub, contributing to various open-source Ruby, Clojure and Emacs Lisp projects.
   My most notable open-source projects are RuboCop (a linter/formatter for Ruby) and CIDER (a Clojure interactive development environment for Emacs)."
   speaker_github_url: "https://github.com/bbatsov"
   speaker_twitter_url: ""
@@ -19,7 +19,21 @@ speaker_1: &bozhidarbatsov
   speaker_mastodon_url: ""
   is_mc: false
 
-speaker_2: &lucianghinda
+speaker_2: &riccardocarlesso
+ speaker_in_speaker_lists: true
+ speaker_name: Riccardo Carlesso
+ speaker_pic_filename: riccardo-carlesso.png
+ speaker_role: "Developer Advocate @ Google Cloud"
+ speaker_bio: "Riccardo loves caipirinhas and 🍷 Amarone, playing 🎹 piano and 🏊🏻🚴🏿🏃‍♀️ triathlons; he's been passionate about Mathematics since he was 4. He's still in love with Ruby and Rails.
+Former network administrator, sysadmin, and Ruby on Rails developer, Riccardo has been in operations for 20+ years and still likes to spend time coding (better if Ruby). He loves engaging with customers and help them run their operations reliably and successfully in the cloud."
+ speaker_github_url: "https://github.com/palladius"
+ speaker_twitter_url: "https://twitter.com/palladius"
+ speaker_instagram_url: "https://www.instagram.com/palladius/"
+ speaker_linkedin_url: "https://www.linkedin.com/in/riccardocarlesso/"
+ speaker_mastodon_url: ""
+ is_mc: false
+
+speaker_3: &lucianghinda
   speaker_in_speaker_lists: true
   speaker_name: Lucian Ghinda
   speaker_pic_filename: lucian-ghinda.jpg
@@ -34,25 +48,25 @@ speaker_2: &lucianghinda
   speaker_mastodon_url: ""
   is_mc: false
 
-#speaker_3: &joelhawksley
-#  speaker_in_speaker_lists: true
-#  speaker_name: Joel Hawksley
-#  speaker_pic_filename: joel-hawksley.jpg
-#  speaker_role: "Staff Engineer @ GitHub"
-#  speaker_bio: "Joel is a staff software engineer at GitHub, working on user interface architecture and strategy."
-#  speaker_github_url: ""
-#  speaker_twitter_url: ""
-#  speaker_instagram_url: ""
-#  speaker_linkedin_url: ""
-#  speaker_mastodon_url: ""
-#  is_mc: false
+speaker_4: &anatolymikhaylov
+ speaker_in_speaker_lists: true
+ speaker_name: Anatoly	Mikhaylov
+ speaker_pic_filename: anatoly-mikhaylov.png
+ speaker_role: "Performance and Reliability engineer @ Zendesk"
+ speaker_bio: "I live in Dublin, Ireland. I'm Performance and Reliability engineer with over 15 years of experience. I'm part of Capacity and Performance team at Zendesk where I'm responsible for capacity management, infrastructure rightsizing, building sophisticated observability, running performance workshops and ensuring large complex system is up and running reliably and cost efficiently. My team plays key role in incidents response to performance and capacity related outages. I also contribute to Zendesk Engineering and Nginx blogs, publish with USENIX Login magazine and present Zendesk at several tech conferences and online webinars."
+ speaker_github_url: "https://github.com/mikhailov"
+ speaker_twitter_url: ""
+ speaker_instagram_url: ""
+ speaker_linkedin_url: ""
+ speaker_mastodon_url: ""
+ is_mc: false
 
-speaker_4: &rashminagpal
+speaker_5: &rashminagpal
   speaker_in_speaker_lists: true
   speaker_name: Rashmi Nagpal
   speaker_pic_filename: rashmi-nagpal.jpg
   speaker_role: "Machine Learning Engineer @ Patchstack"
-  speaker_bio: "Rashmi, a Machine Learning Engineer by profession and a passionate researcher is dedicated to crafting beautiful AI/ML products. With nearly 5 years of industrial experience, she has brought ideas to life at pre-seed startups and contributed to impactful redesigns and features at established industry giants. Beyond coding, Rashmi finds inspiration in capturing the wonders of the cosmos through her telescope and engaging in board games with friends. 
+  speaker_bio: "Rashmi, a Machine Learning Engineer by profession and a passionate researcher is dedicated to crafting beautiful AI/ML products. With nearly 5 years of industrial experience, she has brought ideas to life at pre-seed startups and contributed to impactful redesigns and features at established industry giants. Beyond coding, Rashmi finds inspiration in capturing the wonders of the cosmos through her telescope and engaging in board games with friends.
   Additionally, as a Research Affiliate at MIT, Rashmi continues to push the boundaries of technology, leveraging her expertise to bridge the gap between academia and industry in AI."
   speaker_github_url: ""
   speaker_twitter_url: "https://twitter.com/iamrashminagpal"
@@ -61,7 +75,7 @@ speaker_4: &rashminagpal
   speaker_mastodon_url: ""
   is_mc: false
 
-speaker_5: &cristianplanas
+speaker_6: &cristianplanas
   speaker_in_speaker_lists: true
   speaker_name: Cristian Planas
   speaker_pic_filename: cristian-planas.jpg
@@ -74,26 +88,25 @@ speaker_5: &cristianplanas
   speaker_mastodon_url: ""
   is_mc: false
 
-# speaker_6: &piotrszotkowski
-#  speaker_in_speaker_lists: true
-#  speaker_name: Piotr Szotkowski
-#  speaker_pic_filename: piotr-szotkowski.jpg
-#  speaker_role: "Senior staff developer @ Shopify"
-#  speaker_bio: "Piotr started dabbling in Ruby 18 years ago, initially for his PhD thesis and later in his work as an assistant professor at Warsaw University of Technology. Currently Piotr works as a senior staff developer at Shopify, speaks at various Ruby conferences and co-maintains Bogus and Reek gems."
-#  speaker_github_url: "https://github.com/chastell"
-#  speaker_twitter_url: "https://twitter.com/chastell"
-#  speaker_instagram_url: "https://www.instagram.com/chastell_net"
-#  speaker_linkedin_url: "https://www.linkedin.com/in/chastell/"
-#  speaker_mastodon_url: ""
-#  is_mc: false
+speaker_7: &monicagiambitto
+  speaker_in_speaker_lists: true
+  speaker_name: "Monica Giambitto"
+  speaker_pic_filename: monica-giambitto.png
+  speaker_role: "Engineering Leader - MASTER OF CEREMONIES"
+  speaker_bio: "Software engineer at heart turned manager. Italian in Munich. Co-host of the Expanding Beyond podcast. Proud MC for the Ruby community."
+  speaker_github_url: "https://github.com/nirnaeth/"
+  speaker_linkedin_url: "https://www.linkedin.com/in/monicagiambitto/"
+  is_mc: true
+
 
 speakers:
   speaker_1: *bozhidarbatsov
-  speaker_2: *lucianghinda
-#  speaker_3: *joelhawksley
-  speaker_4: *rashminagpal
-  speaker_5: *cristianplanas
-#  speaker_6: *piotrszotkowski
+  speaker_2: *riccardocarlesso
+  speaker_3: *lucianghinda
+  speaker_4: *anatolymikhaylov
+  speaker_5: *rashminagpal
+  speaker_6: *cristianplanas
+  speaker_7: *monicagiambitto
 
 
 
@@ -140,17 +153,8 @@ days:
         service_icon: "glass"
 
       # talk
-      # keynote:
-      #  item_type: "keynote"
-      #  track: *track_1
-      #  start_datetime: 2022-05-19T09:30+02:00
-      #  end_datetime: 2022-05-19T10:25+02:00
-      #  talk_title: "test"
-      #  talk_description: "test"
-      #  talk_video_url:
-      #  speakers:
-      #    speaker_1: *bozhidarbatsov
-      titolotalk1:
+
+      Weird-Ruby:
         item_type: "talk"
         track: *track_1
         start_datetime:
@@ -161,7 +165,20 @@ days:
         speakers:
           speaker_1: *bozhidarbatsov
 
-      titolotalk2:
+      News-Crawler:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "News Crawler via Langchain.RB and Gemini APIs"
+        talk_description: "How can we get an LLM to be updated to today’s news? Gen AI is great at answering questions...from the past.
+       After the LLM was trained, all you can do is RAG. How about crawling the web for latest news with Gemini for multimodal extraction and offering summarization by your favorite topic?
+       It all gets more exciting thanks to Andrei’s langchainrb gem."
+        talk_video_url:
+        speakers:
+          speaker_1: *riccardocarlesso
+
+      Discover-Modern-Ruby-features:
         item_type: "talk"
         track: *track_1
         start_datetime:
@@ -170,31 +187,9 @@ days:
         talk_description: "Exploring Ruby's evolution as a language: Dive into new features like pattern matching, hash literal value omission, object shapes, and a wide range of new abilities. Learn their real-world applications & impact on code readability in my talk. Let's unlock Ruby's full potential!"
         talk_video_url:
         speakers:
-          speaker_2: *lucianghinda
+          speaker_1: *lucianghinda
 
-#      titolotalk3:
-#        item_type: "talk"
-#        track: *track_1
-#        start_datetime:
-#        end_datetime:
-#        talk_title: "How to make your application accessible (and keep it that way!)"
-#        talk_description: "Our industry is shockingly bad at accessibility: by some estimates, over 70% of websites are effectively unavailable to blind users! Making your app accessible isn’t just the right thing to do, it’s the law. In this talk, we’ll share what it’s taken to scale GitHub’s accessibility program and equip you to do the same at your company."
-#        talk_video_url:
-#        speakers:
-#          speaker_3: *joelhawksley
-
-      titolotalk4:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "From Data to Recommendations: Building an Intelligent System with Ruby on Rails"
-        talk_description: "Did you know that 75% of users are more likely to engage with a platform offering personalized recommendations? Well, with 1.2 million websites worldwide built on Ruby on Rails, let’s harness the power of this popular framework to implement intelligent recommendations effortlessly! This talk will explore the exciting realm of recommendation systems and how to build an intelligent system using Ruby on Rails. We will start by unraveling the fundamentals of recommendation systems, including collaborative filtering. With this foundation, we will integrate machine learning techniques into the Ruby on Rails framework. Throughout the talk, we will discuss various strategies for capturing and utilizing user preferences, improving recommendation accuracy, and continuously refining the system based on user feedback. By the end of this talk, you will have gained valuable insights into building an intelligent system that can transform raw data into valuable recommendations within a Ruby on Rails application!"
-        talk_video_url:
-        speakers:
-          speaker_4: *rashminagpal
-
-      titolotalk5:
+      History-of-a-Rails-monolith:
         item_type: "talk"
         track: *track_1
         start_datetime:
@@ -204,7 +199,21 @@ days:
         In this Cristian Planas, Senior Staff Engineer at Zendesk, will share with you his 10 years of experience in a company that has succeeded by keeping Rails in its core. He will guide you through the life of a Rails-centered organization, that scaled from zero to hundreds of millions of users."
         talk_video_url:
         speakers:
-          speaker_5: *cristianplanas
+          speaker_1: *cristianplanas
+          speaker_2: *anatolymikhaylov
+
+      From-Data-to-Recommendations:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "From Data to Recommendations: Building an Intelligent System with Ruby on Rails"
+        talk_description: "Did you know that 75% of users are more likely to engage with a platform offering personalized recommendations? Well, with 1.2 million websites worldwide built on Ruby on Rails, let’s harness the power of this popular framework to implement intelligent recommendations effortlessly! This talk will explore the exciting realm of recommendation systems and how to build an intelligent system using Ruby on Rails. We will start by unraveling the fundamentals of recommendation systems, including collaborative filtering. With this foundation, we will integrate machine learning techniques into the Ruby on Rails framework. Throughout the talk, we will discuss various strategies for capturing and utilizing user preferences, improving recommendation accuracy, and continuously refining the system based on user feedback. By the end of this talk, you will have gained valuable insights into building an intelligent system that can transform raw data into valuable recommendations within a Ruby on Rails application!"
+        talk_video_url:
+        speakers:
+          speaker_1: *rashminagpal
+
+
 
 #      titolotalk6:
 #        item_type: "talk"
@@ -216,4 +225,4 @@ days:
 #        Let’s take a look how simple modern stacks can be - from dynamic sites build with backend-generated HTML-over-websockets through database-backed job queues and production uses of SQLite."
 #        talk_video_url:
 #        speakers:
-#          speaker_6: *piotrszotkowski            
+#          speaker_6: *piotrszotkowski

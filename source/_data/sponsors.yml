@@ -40,6 +40,10 @@ silver:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
+  sponsor4:
+    name: "Google Cloud"
+    logo_filename: "google-cloud.svg"
+    site_url: "https://cloud.google.com/"
 bronze:
   sponsor2:
     name: "Stickermule"

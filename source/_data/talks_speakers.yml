@@ -33,7 +33,20 @@ Former network administrator, sysadmin, and Ruby on Rails developer, Riccardo ha
  speaker_mastodon_url: ""
  is_mc: false
 
-speaker_3: &lucianghinda
+speaker_3: &emilianodellacasa
+ speaker_in_speaker_lists: true
+ speaker_name: Emiliano Della Casa
+ speaker_pic_filename: emiliano-dellacasa.png
+ speaker_role: "Software Architect Independent Consultant"
+ speaker_bio: "Born in Modena in 1980, I have been developing with Ruby for 20 years and never stopped loving it. I am currently working as an independent consultant"
+ speaker_github_url: "https://github.com/emilianodellacasa"
+ speaker_linkedin_url: "https://www.linkedin.com/in/emilianodellacasa/"
+ speaker_mastodon_url: ""
+ is_mc: false
+
+
+
+speaker_4: &lucianghinda
   speaker_in_speaker_lists: true
   speaker_name: Lucian Ghinda
   speaker_pic_filename: lucian-ghinda.jpg
@@ -48,7 +61,7 @@ speaker_3: &lucianghinda
   speaker_mastodon_url: ""
   is_mc: false
 
-speaker_4: &anatolymikhaylov
+speaker_5: &anatolymikhaylov
  speaker_in_speaker_lists: true
  speaker_name: Anatoly	Mikhaylov
  speaker_pic_filename: anatoly-mikhaylov.png
@@ -61,7 +74,7 @@ speaker_4: &anatolymikhaylov
  speaker_mastodon_url: ""
  is_mc: false
 
-speaker_5: &rashminagpal
+speaker_6: &rashminagpal
   speaker_in_speaker_lists: true
   speaker_name: Rashmi Nagpal
   speaker_pic_filename: rashmi-nagpal.jpg
@@ -75,7 +88,7 @@ speaker_5: &rashminagpal
   speaker_mastodon_url: ""
   is_mc: false
 
-speaker_6: &cristianplanas
+speaker_7: &cristianplanas
   speaker_in_speaker_lists: true
   speaker_name: Cristian Planas
   speaker_pic_filename: cristian-planas.jpg
@@ -88,7 +101,7 @@ speaker_6: &cristianplanas
   speaker_mastodon_url: ""
   is_mc: false
 
-speaker_7: &monicagiambitto
+speaker_8: &monicagiambitto
   speaker_in_speaker_lists: true
   speaker_name: "Monica Giambitto"
   speaker_pic_filename: monica-giambitto.png
@@ -102,11 +115,12 @@ speaker_7: &monicagiambitto
 speakers:
   speaker_1: *bozhidarbatsov
   speaker_2: *riccardocarlesso
-  speaker_3: *lucianghinda
-  speaker_4: *anatolymikhaylov
-  speaker_5: *rashminagpal
-  speaker_6: *cristianplanas
-  speaker_7: *monicagiambitto
+  speaker_3: *emilianodellacasa
+  speaker_4: *lucianghinda
+  speaker_5: *anatolymikhaylov
+  speaker_6: *rashminagpal
+  speaker_7: *cristianplanas
+  speaker_8: *monicagiambitto
 
 
 
@@ -178,6 +192,18 @@ days:
         speakers:
           speaker_1: *riccardocarlesso
 
+      ruby-aws-lambda:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Using Ruby on AWS's Lambda"
+        talk_description: "A Hitchhiker's Guide to Ruby on AWS's Lambda. Starting from a real world example, I will show how to develop and deploy ruby code on AWS's Lambda.
+        I will show why we chose ruby for the project and why we decided to move part of the monolith code to microservices keeping ruby as main language. I will also show how to test and deploy the code using rspec, cucumber and serverless for a complete CI/CD cycle."
+        talk_video_url:
+        speakers:
+          speaker_1: *emilianodellacasa
+
       Discover-Modern-Ruby-features:
         item_type: "talk"
         track: *track_1
@@ -213,16 +239,3 @@ days:
         speakers:
           speaker_1: *rashminagpal
 
-
-
-#      titolotalk6:
-#        item_type: "talk"
-#        track: *track_1
-#        start_datetime:
-#        end_datetime:
-#        talk_title: "Boring Stacks for Interesting Times"
-#        talk_description: "With the ZIRP (zero-interest rates policy) period behind us, the IT at large - and web / SaaS slice of it in particular - is facing interesting times. Smaller teams (or even single devs) will need to deliver leaner solutions, and projects like LiteStack show us an enticingly minimalist environments.
-#        Let’s take a look how simple modern stacks can be - from dynamic sites build with backend-generated HTML-over-websockets through database-backed job queues and production uses of SQLite."
-#        talk_video_url:
-#        speakers:
-#          speaker_6: *piotrszotkowski

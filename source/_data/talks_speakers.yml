@@ -88,7 +88,17 @@ speaker_6: &rashminagpal
   speaker_mastodon_url: ""
   is_mc: false
 
-speaker_7: &cristianplanas
+speaker_7: &abiodunolowode
+  speaker_in_speaker_lists: true
+  speaker_name: Abiodun Olowode
+  speaker_pic_filename: abiodun-olowode.png
+  speaker_role: "Senior Engineering Manager @ Factorial	"
+  speaker_bio: "Abiodun Olowode is a Senior Engineering Manager at Factorial in Barcelona, who made the switch to software engineering from Avionics engineering. Prior to transitioning into engineering management, she worked as a Senior Software Developer on several core teams and a Developer Experience Team. She is very enthusiastic about sharing her knowledge and breaking down complex technical concepts, via writing and speaking.
+She's always up for a new challenge, especially when it involves making the world a better place one line of code at a time."
+  speaker_linkedin_url: "https://www.linkedin.com/in/abiodun-ajibade"
+  is_mc: false
+
+speaker_8: &cristianplanas
   speaker_in_speaker_lists: true
   speaker_name: Cristian Planas
   speaker_pic_filename: cristian-planas.jpg
@@ -101,7 +111,7 @@ speaker_7: &cristianplanas
   speaker_mastodon_url: ""
   is_mc: false
 
-speaker_8: &monicagiambitto
+speaker_9: &monicagiambitto
   speaker_in_speaker_lists: true
   speaker_name: "Monica Giambitto"
   speaker_pic_filename: monica-giambitto.png
@@ -119,9 +129,9 @@ speakers:
   speaker_4: *lucianghinda
   speaker_5: *anatolymikhaylov
   speaker_6: *rashminagpal
-  speaker_7: *cristianplanas
-  speaker_8: *monicagiambitto
-
+  speaker_7: *abiodunolowode
+  speaker_8: *cristianplanas
+  speaker_9: *monicagiambitto
 
 
 tracks:
@@ -239,3 +249,13 @@ days:
         speakers:
           speaker_1: *rashminagpal
 
+      Monads-Exploring-Railway-Oriented-Programming-in-Ruby:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Monads: Exploring Railway Oriented Programming in Ruby"
+        talk_description: "Can we apply the fundamental concept of monads in building maintainable and robust applications in Ruby? In this talk, we'll explore what railway-oriented programming is and how it enhances error handling, simplifies complex workflows, and improves code readability via the use of monads. Throughout the session, we'll write code together and actively test it, uncovering the unique failure and success contexts of monads."
+        talk_video_url:
+        speakers:
+          speaker_1: *abiodunolowode

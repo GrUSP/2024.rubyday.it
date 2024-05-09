@@ -16,14 +16,18 @@ sponsors_block_title: "Thanks to our sponsors and partners"
 #     site_url: ""
 gold:
   sponsor1:
+    name: "condense"
+    logo_filename: "condense.svg"
+    site_url: "https://condense.tech"
+  sponsor2:
     name: "seesaw"
     logo_filename: "seesaw.png"
     site_url: "https://seesaw.it/"
-  sponsor2:
+  sponsor3:
     name: "WeLaika"
     logo_filename: "welaika.svg"
     site_url: "https://welaika.com/"
-  sponsor3:
+  sponsor4:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"

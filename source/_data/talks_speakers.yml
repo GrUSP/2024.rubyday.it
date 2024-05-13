@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -155,34 +155,61 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
-    title: "Day 1"
+    date: 2024-05-31T08:45+02:00
+    title: Day 1
     talks:
-      talk_1:
+      checkin:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
-        talk_title: "Check-in"
-      talk_2:
+        track: *track_1
+        start_datetime: 2024-05-31T08:45+02:00
+        end_datetime: 2024-05-31T09:25+02:00
+        talk_title: "Check-in and welcome coffee"
+      opening:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
+        track: *track_1
+        start_datetime: 2024-05-31T09:25+02:00
+        end_datetime: 2024-05-31T09:40+02:00
+        talk_title: "Opening by GrUSP"
+      coffee-morning:
+        item_type: "service"
+        track: *track_1
+        start_datetime: "2024-05-31T11:00+02:00"
+        end_datetime: "2024-05-31T11:30+02:00"
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        track: *track_1
+        start_datetime: "2024-05-31T12:50+02:00"
+        end_datetime: "2024-05-31T14:00+02:00"
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      happy-hour:
+      lightning-talks:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
+        start_datetime: "2024-05-31T14:00+02:00"
+        end_datetime: "2024-05-31T14:30+02:00"
+        talk_title: "Lightning Talks"
+        service_icon: "bolt"
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: "2024-05-31T15:50+02:00"
+        end_datetime: "2024-05-31T16:20+02:00"
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      closing:
+        item_type: "service"
+        track: *track_1
+        start_datetime: "2024-05-31T17:40+02:00"
+        end_datetime: "2024-05-31T17:50+02:00"
+        talk_title: "Closing by GrUSP - See you next time!"
 
       # talk
 
       Weird-Ruby:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: "2024-05-31T09:40+02:00"
+        end_datetime: "2024-05-31T10:20+02:00"
         talk_title: "Weird Ruby"
         talk_description: "Over its long history (31 years and counting) Ruby has accumulated dozens of little known, obscure and somewhat weird features. Some of them are annoying, some of them are fun and a few are actually quite useful. In this session we'll go over some of my favorite weird Ruby features and we'll discuss how to make the best use of them (provided they are any useful, that is). It will be weird and fun, I promise!"
         talk_video_url:
@@ -192,8 +219,8 @@ days:
       News-Crawler:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: "2024-05-31T10:20+02:00"
+        end_datetime: "2024-05-31T11:00+02:00"
         talk_title: "News Crawler via Langchain.RB and Gemini APIs"
         talk_description: "How can we get an LLM to be updated to today’s news? Gen AI is great at answering questions...from the past.
        After the LLM was trained, all you can do is RAG. How about crawling the web for latest news with Gemini for multimodal extraction and offering summarization by your favorite topic?
@@ -205,8 +232,8 @@ days:
       ruby-aws-lambda:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: "2024-05-31T11:30+02:00"
+        end_datetime: "2024-05-31T12:10+02:00"
         talk_title: "Using Ruby on AWS's Lambda"
         talk_description: "A Hitchhiker's Guide to Ruby on AWS's Lambda. Starting from a real world example, I will show how to develop and deploy ruby code on AWS's Lambda.
         I will show why we chose ruby for the project and why we decided to move part of the monolith code to microservices keeping ruby as main language. I will also show how to test and deploy the code using rspec, cucumber and serverless for a complete CI/CD cycle."
@@ -217,19 +244,41 @@ days:
       Discover-Modern-Ruby-features:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: "2024-05-31T12:10+02:00"
+        end_datetime: "2024-05-31T12:50+02:00"
         talk_title: "Discover Modern Ruby features"
         talk_description: "Exploring Ruby's evolution as a language: Dive into new features like pattern matching, hash literal value omission, object shapes, and a wide range of new abilities. Learn their real-world applications & impact on code readability in my talk. Let's unlock Ruby's full potential!"
         talk_video_url:
         speakers:
           speaker_1: *lucianghinda
 
+      Monads-Exploring-Railway-Oriented-Programming-in-Ruby:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: "2024-05-31T14:30+02:00"
+        end_datetime: "2024-05-31T15:10+02:00"
+        talk_title: "Monads: Exploring Railway Oriented Programming in Ruby"
+        talk_description: "Can we apply the fundamental concept of monads in building maintainable and robust applications in Ruby? In this talk, we'll explore what railway-oriented programming is and how it enhances error handling, simplifies complex workflows, and improves code readability via the use of monads. Throughout the session, we'll write code together and actively test it, uncovering the unique failure and success contexts of monads."
+        talk_video_url:
+        speakers:
+          speaker_1: *abiodunolowode
+
+      From-Data-to-Recommendations:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: "2024-05-31T15:10+02:00"
+        end_datetime: "2024-05-31T15:50+02:00"
+        talk_title: "From Data to Recommendations: Building an Intelligent System with Ruby on Rails"
+        talk_description: "Did you know that 75% of users are more likely to engage with a platform offering personalized recommendations? Well, with 1.2 million websites worldwide built on Ruby on Rails, let’s harness the power of this popular framework to implement intelligent recommendations effortlessly! This talk will explore the exciting realm of recommendation systems and how to build an intelligent system using Ruby on Rails. We will start by unraveling the fundamentals of recommendation systems, including collaborative filtering. With this foundation, we will integrate machine learning techniques into the Ruby on Rails framework. Throughout the talk, we will discuss various strategies for capturing and utilizing user preferences, improving recommendation accuracy, and continuously refining the system based on user feedback. By the end of this talk, you will have gained valuable insights into building an intelligent system that can transform raw data into valuable recommendations within a Ruby on Rails application!"
+        talk_video_url:
+        speakers:
+          speaker_1: *rashminagpal
+
       History-of-a-Rails-monolith:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: "2024-05-31T16:20+02:00"
+        end_datetime: "2024-05-31T17:00+02:00"
         talk_title: "2000 engineers, 2 millions lines of code: the history of a Rails monolith"
         talk_description: "Rails is the best framework for building your startup. But what happens when the startup becomes a leading business? How do companies that have Rails at the heart of its stack manage growth? How do you maintain a growing application for 15 years in a constantly changing environment?
         In this Cristian Planas, Senior Staff Engineer at Zendesk, will share with you his 10 years of experience in a company that has succeeded by keeping Rails in its core. He will guide you through the life of a Rails-centered organization, that scaled from zero to hundreds of millions of users."
@@ -238,24 +287,13 @@ days:
           speaker_1: *cristianplanas
           speaker_2: *anatolymikhaylov
 
-      From-Data-to-Recommendations:
+      Panel:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "From Data to Recommendations: Building an Intelligent System with Ruby on Rails"
-        talk_description: "Did you know that 75% of users are more likely to engage with a platform offering personalized recommendations? Well, with 1.2 million websites worldwide built on Ruby on Rails, let’s harness the power of this popular framework to implement intelligent recommendations effortlessly! This talk will explore the exciting realm of recommendation systems and how to build an intelligent system using Ruby on Rails. We will start by unraveling the fundamentals of recommendation systems, including collaborative filtering. With this foundation, we will integrate machine learning techniques into the Ruby on Rails framework. Throughout the talk, we will discuss various strategies for capturing and utilizing user preferences, improving recommendation accuracy, and continuously refining the system based on user feedback. By the end of this talk, you will have gained valuable insights into building an intelligent system that can transform raw data into valuable recommendations within a Ruby on Rails application!"
+        start_datetime: "2024-05-31T17:00+02:00"
+        end_datetime: "2024-05-31T17:40+02:00"
+        talk_title: "Panel - TBA"
+        talk_description: ""
         talk_video_url:
         speakers:
-          speaker_1: *rashminagpal
-
-      Monads-Exploring-Railway-Oriented-Programming-in-Ruby:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Monads: Exploring Railway Oriented Programming in Ruby"
-        talk_description: "Can we apply the fundamental concept of monads in building maintainable and robust applications in Ruby? In this talk, we'll explore what railway-oriented programming is and how it enhances error handling, simplifies complex workflows, and improves code readability via the use of monads. Throughout the session, we'll write code together and actively test it, uncovering the unique failure and success contexts of monads."
-        talk_video_url:
-        speakers:
-          speaker_1: *abiodunolowode
+          speaker_1: *monicagiambitto

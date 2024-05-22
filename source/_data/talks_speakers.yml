@@ -292,8 +292,11 @@ days:
         track: *track_1
         start_datetime: "2024-05-31T17:00+02:00"
         end_datetime: "2024-05-31T17:40+02:00"
-        talk_title: "Panel - TBA"
+        talk_title: "Panel - Navigating a career: tech, people, and LLMs"
         talk_description: ""
         talk_video_url:
         speakers:
           speaker_1: *monicagiambitto
+          speaker_2: *bozhidarbatsov
+          speaker_3: *rashminagpal
+          speaker_4: *lucianghinda

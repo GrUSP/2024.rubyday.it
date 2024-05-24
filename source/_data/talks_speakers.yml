@@ -293,7 +293,10 @@ days:
         start_datetime: "2024-05-31T17:00+02:00"
         end_datetime: "2024-05-31T17:40+02:00"
         talk_title: "Panel - Navigating a career: tech, people, and LLMs"
-        talk_description: ""
+        talk_description: "Join our distinguished panelists as they explore the future of careers in the tech industry amidst rapid technological advancements and economic uncertainty.
+        This discussion will cover key topics such as transitioning into leadership roles, upskilling, navigating career pivots, and insights for early-career developers.
+        Learn strategies for staying relevant in a fast-evolving field and gain practical advice on building a strong professional network.
+        Don’t miss this engaging conversation that promises to provide valuable perspectives and actionable insights for tech professionals at all stages of their careers."
         talk_video_url:
         speakers:
           speaker_1: *monicagiambitto
